@@ -1,0 +1,35 @@
+/* @import '~leaflet/dist/leaflet.css'; */
+
+.leaflet-container {
+  width: 98%;
+  height: 410px;
+  margin: 50px auto;
+}
+
+.city-tooltip {
+  /* background-color: white; */
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 8px;
+  padding: 2px;
+  text-align: center;
+}
+.leaflet-pane .leaflet-tile-container .leaflet-layer {
+  display: none;
+}
+.leaflet-pane .leaflet-tile-container .leaflet-layer {
+  display: none;
+}
+
+.swal2-container{
+  z-index: 9999; /* Change this value as needed */
+}
+
+.swal2-title{
+  font-size: 15px;
+}
+
+/* App.css */
+.custom-tile {
+  filter: brightness(0.3) contrast(0.7);
+}
