@@ -61,7 +61,7 @@ const Maps = ({ timeLeft, setTimeLeft, setWin }) => {
         }
         setCountry(matchedCity);
         audio.play();
-        alert(`ممتاز!  ${ country?.length + 1 } مدينة`, "success");
+        alert(`ممتاز!  ${ country?.length + 1 } دولة`, "success");
         setInputValue("");
       }
     }
