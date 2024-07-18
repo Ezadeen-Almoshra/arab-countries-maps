@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Form from "./Components/Form";
+
 import Maps from "./Components/Maps";
 import "leaflet/dist/leaflet.css";
 import Timer from "./Components/Timer";
