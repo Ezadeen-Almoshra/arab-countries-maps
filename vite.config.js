@@ -48,8 +48,8 @@ export default defineConfig({
             purpose: "maskable",
           },
         ],
-        theme_color: "#eee",
-        background_color: "#f0e7db",
+        theme_color: "#ddd",
+        background_color: "#cecece",
         display: "standalone",
         scope: "/",
         start_url: "/",
@@ -57,5 +57,6 @@ export default defineConfig({
       },
     }),
   ],
+  base: "/arab-countries-maps/",
 });
 
