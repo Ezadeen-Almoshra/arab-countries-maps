@@ -19,7 +19,7 @@ const Form = ({ inputValue, setInputValue, inputRef }) => {
           ref={inputRef}
           type="text"
           value={inputValue}
-          placeholder="ادخل أسم المحافظة"
+          placeholder="ادخل أسم الدولة"
           className="p-3 px-4 outline-1
            outline-indigo-400 focus:outline-0
            border border-indigo-500

@@ -35,7 +35,7 @@ const Maps = ({ timeLeft, setTimeLeft, setWin }) => {
   
   
 
-    const geoData = useGeoData(country);
+  const geoData = useGeoData(country);
    useTimer(timeLeft, setTimeLeft, country, setCountry, setWin, countries);
 
   useEffect(() => {
@@ -55,8 +55,7 @@ const Maps = ({ timeLeft, setTimeLeft, setWin }) => {
           }
           return;
         }
-        if (matchedCity?.id == 21) {
-          
+        if (matchedCity?.id == "21") {
           setPosition([30.8124247, 34.8594762]);
           setZoom(5);
         }
